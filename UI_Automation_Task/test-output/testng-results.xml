@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-31T19:16:01 IST" name="Default suite" finished-at="2022-08-31T19:17:09 IST" duration-ms="68264">
+    <groups>
+    </groups>
+    <test started-at="2022-08-31T19:16:01 IST" name="Default test" finished-at="2022-08-31T19:17:09 IST" duration-ms="68264">
+      <class name="scripts.Flipkart_Automation$testAutomateFlipkart">
+        <test-method signature="setUp()[pri:1, instance:scripts.Flipkart_Automation$testAutomateFlipkart@35047d03]" started-at="2022-08-31T19:16:01 IST" name="setUp" finished-at="2022-08-31T19:16:09 IST" duration-ms="8758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login()[pri:2, instance:scripts.Flipkart_Automation$testAutomateFlipkart@35047d03]" started-at="2022-08-31T19:16:09 IST" name="login" finished-at="2022-08-31T19:16:13 IST" duration-ms="3599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addFirstItem()[pri:3, instance:scripts.Flipkart_Automation$testAutomateFlipkart@35047d03]" started-at="2022-08-31T19:16:13 IST" name="addFirstItem" finished-at="2022-08-31T19:16:34 IST" duration-ms="20986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addFirstItem -->
+        <test-method signature="addSecondItem()[pri:4, instance:scripts.Flipkart_Automation$testAutomateFlipkart@35047d03]" started-at="2022-08-31T19:16:34 IST" name="addSecondItem" finished-at="2022-08-31T19:17:02 IST" duration-ms="28373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSecondItem -->
+        <test-method signature="removePreviouslyAddedItems()[pri:5, instance:scripts.Flipkart_Automation$testAutomateFlipkart@35047d03]" started-at="2022-08-31T19:17:02 IST" name="removePreviouslyAddedItems" finished-at="2022-08-31T19:17:09 IST" duration-ms="6305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removePreviouslyAddedItems -->
+        <test-method signature="teardown()[pri:6, instance:scripts.Flipkart_Automation$testAutomateFlipkart@35047d03]" started-at="2022-08-31T19:17:09 IST" name="teardown" finished-at="2022-08-31T19:17:09 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- scripts.Flipkart_Automation$testAutomateFlipkart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

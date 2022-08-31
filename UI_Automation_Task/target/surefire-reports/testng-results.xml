@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-29T17:52:15Z" name="Suite" finished-at="2022-08-29T17:52:21Z" duration-ms="5344">
+    <groups>
+    </groups>
+    <test started-at="2022-08-29T17:52:15Z" name="Test" finished-at="2022-08-29T17:52:21Z" duration-ms="5344">
+      <class name="scripts.TestA">
+        <test-method signature="testDummy()[pri:0, instance:scripts.TestA@30d1c17]" started-at="2022-08-29T23:22:15Z" name="testDummy" finished-at="2022-08-29T23:22:21Z" duration-ms="5323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDummy -->
+      </class> <!-- scripts.TestA -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
