@@ -39,39 +39,39 @@ public class Flipkart_Automation {
 			driver.findElement(By.xpath("//div[contains(text(),'APPLE')]")).click();
 			driver.findElement(By.xpath("//div[contains(text(),'APPLE iPhone 13 (Starlight, 128 GB)')]")).click();
 			// Hold all the window handles in ArrayList
-		    ArrayList<String> newTb = new ArrayList<String>(driver.getWindowHandles());
-		    //switch to new tab
-		    driver.switchTo().window(newTb.get(1));
-		    System.out.println("Page title of new tab: " + driver.getTitle());
-		    Thread.sleep(2000);
-		    driver.findElement(By.xpath("//button[text()='ADD TO CART']")).click();
+		    	ArrayList<String> newTb = new ArrayList<String>(driver.getWindowHandles());
+		    	//switch to new tab
+		    	driver.switchTo().window(newTb.get(1));
+		    	System.out.println("Page title of new tab: " + driver.getTitle());
+		    	Thread.sleep(2000);
+		    	driver.findElement(By.xpath("//button[text()='ADD TO CART']")).click();
 		}
 		
 		@Test(priority=4)
 		public void addSecondItem() throws InterruptedException {
 			Thread.sleep(2000);
-		    driver.findElement(By.xpath("//img[@title='Flipkart'][@alt='Flipkart']")).click();
-		    driver.findElement(By.xpath("//div[text()='Appliances']")).click();
-		    Thread.sleep(2000);
-		    driver.findElement(By.xpath("//div[text()='Sandwich Makers']")).click();
-		    driver.findElement(By.xpath("//a[contains(text(),'AGARO Grand Grill')]")).click();
-		    // Hold all the window handles in an ArrayList
-		    ArrayList<String> newTb1 = new ArrayList<String>(driver.getWindowHandles());
-		    // Switch to new tab
-		    driver.switchTo().window(newTb1.get(2));
-		    System.out.println("Page title of new tab: " + driver.getTitle());
-		    Thread.sleep(3000);
-		    driver.findElement(By.xpath("//button[text()='ADD TO CART']")).click();
+		    	driver.findElement(By.xpath("//img[@title='Flipkart'][@alt='Flipkart']")).click();
+		    	driver.findElement(By.xpath("//div[text()='Appliances']")).click();
+		    	Thread.sleep(2000);
+		    	driver.findElement(By.xpath("//div[text()='Sandwich Makers']")).click();
+		    	driver.findElement(By.xpath("//a[contains(text(),'AGARO Grand Grill')]")).click();
+		    	// Hold all the window handles in an ArrayList
+		    	ArrayList<String> newTb1 = new ArrayList<String>(driver.getWindowHandles());
+		    	// Switch to new tab
+		    	driver.switchTo().window(newTb1.get(2));
+		    	System.out.println("Page title of new tab: " + driver.getTitle());
+		    	Thread.sleep(3000);
+		    	driver.findElement(By.xpath("//button[text()='ADD TO CART']")).click();
 		}
 		
 		@Test(priority=5)
 		public void removePreviouslyAddedItems() throws InterruptedException {
 			Thread.sleep(3000);
-		    driver.findElement(By.xpath("//a[contains(text(),'AGARO')]/../../../..//div[contains(text(),'Remove')]")).click();
-		    driver.findElement(By.xpath("//div[text()='Remove Item']/..//div[text()='Remove']")).click();
-		    Thread.sleep(3000);
-		    driver.findElement(By.xpath("//a[contains(text(),'APPLE iPhone 13 (Starlight, 128 GB)')]/../../../..//div[contains(text(),'Remove')]")).click();
-		    driver.findElement(By.xpath("//div[text()='Remove Item']/..//div[text()='Remove']")).click();
+		    	driver.findElement(By.xpath("//a[contains(text(),'AGARO')]/../../../..//div[contains(text(),'Remove')]")).click();
+		    	driver.findElement(By.xpath("//div[text()='Remove Item']/..//div[text()='Remove']")).click();
+		    	Thread.sleep(3000);
+		    	driver.findElement(By.xpath("//a[contains(text(),'APPLE iPhone 13 (Starlight, 128 GB)')]/../../../..//div[contains(text(),'Remove')]")).click();
+		    	driver.findElement(By.xpath("//div[text()='Remove Item']/..//div[text()='Remove']")).click();
 		}
 		
 		@Test(priority=6)
